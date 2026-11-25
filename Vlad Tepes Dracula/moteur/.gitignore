@@ -1,0 +1,14 @@
+# Ne jamais versionner les données du jeu original
+extrait/
+*.bin
+*.cue
+*.ART
+*.WG
+*.CIN
+*.MAP
+sauvegardes/
+__pycache__/
+*.pyc
+*.sav
+dracula_decompile*
+*.c

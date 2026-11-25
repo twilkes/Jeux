@@ -1,0 +1,29 @@
+# Liste blanche : on ignore tout, puis on n'autorise que notre propre code.
+# Les fichiers du jeu original (image CD, archives, données extraites) ne doivent jamais être versionnés.
+/*
+!/.gitignore
+!/README.md
+!/Vlad Tepes Dracula/
+/Vlad Tepes Dracula/*
+!/Vlad Tepes Dracula/moteur/
+
+# Dans le moteur : sorties locales, sauvegardes, caches
+extrait/
+sauvegardes/
+__pycache__/
+*.pyc
+# Code décompilé du jeu original (protégé) : jamais sur le dépôt
+dracula_decompile*
+*.c
+# Données du jeu original
+*.bin
+*.cue
+*.rar
+*.ART
+*.WG
+*.CIN
+*.MAP
+*.EXE
+*.exe
+*.wav
+*.sav
